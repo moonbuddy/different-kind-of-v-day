@@ -1,0 +1,36 @@
+html {
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+#superJess {
+  position: absolute;
+  height: 90vh;
+  z-index: -1;
+}
+
+#jessSays {
+  position: absolute;
+  z-index: 1;
+  text-align: center;
+  margin-left: 150px;
+  margin-top: 50px;
+  color: white;
+  width: 325px;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+#btn {
+  position: absolute;
+  margin-left: 245px;
+  margin-top: 200px;
+}
